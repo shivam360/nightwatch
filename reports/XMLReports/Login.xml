@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="Login"
+    errors="1" failures="0" hostname="" id="" package="Login" skipped="1"
+    tests="2" time="0.003000" timestamp="Thu, 06 Sep 2018 04:32:24 GMT">
+  
+    <testcase name="Enter Email and password" classname="Login" time="0.003000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Login / Enter Email and password]:
+
+  TypeError: Cannot read property &#39;assert&#39; of undefined
+    at Object.Enter Email and password (F:\Nightwatch\tests\Login.js:12:9)
+    at Module.call (F:\Nightwatch\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at F:\Nightwatch\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (F:\Nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (F:\Nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (F:\Nightwatch\node_modules\q\q.js:796:13)
+    at F:\Nightwatch\node_modules\q\q.js:556:49
+    at runSingle (F:\Nightwatch\node_modules\q\q.js:137:13)
+    at flush (F:\Nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Click on Sign in button" classname="Login">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

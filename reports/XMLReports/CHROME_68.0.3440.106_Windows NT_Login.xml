@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="Login"
+    errors="0" failures="1" hostname="" id="" package="Login" skipped="0"
+    tests="2" time="62.04" timestamp="Thu, 06 Sep 2018 04:37:54 GMT">
+  
+    <testcase name="Enter Email and password" classname="Login" time="51.74" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click on Sign in button" classname="Login" time="10.29" assertions="2">
+
+      <failure message="Testing if the page title equals &#34;Knowbly - Course Composer Dashboard&#34;.">    at Object.Click on Sign in button (F:\Nightwatch\tests\Login.js:17:17)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

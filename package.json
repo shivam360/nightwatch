@@ -1,0 +1,22 @@
+{
+  "name": "nightwatch",
+  "version": "1.0.0",
+  "description": "to demo nightwatch",
+  "main": "nightwatch.js",
+  "directories": {
+    "lib": "lib",
+    "test": ""
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.12",
+    "nightwatch": "^0.9.21",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Shivam",
+  "license": "ISC"
+}
