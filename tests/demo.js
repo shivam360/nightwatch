@@ -12,7 +12,7 @@ module.exports = {
     browser.assert.elementPresent('input[value="Google Search"]')
 
     //We then fill the search bar with the word "Nightwatch"
-    browser.setValue('#lst-ib', 'Nightwatch')
+    browser.setValue('#lst-ib', 'Nightwatch1')
 
     //then, we click on "Search", and wait for the search results to appear
     browser.click('input[value="Google Search"]')
